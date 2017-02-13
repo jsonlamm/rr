@@ -5,7 +5,6 @@ import Albums from '../components/Albums';
 import { connect } from 'react-redux';
 
 const mapStateToProps = function (state, ownProps) {
-  console.log('albums state', state)
   return {
     albums: state.albums.list
   };

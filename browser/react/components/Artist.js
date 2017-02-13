@@ -4,6 +4,7 @@ import {Link} from 'react-router';
 export default function (props) {
 
   const artist = props.selectedArtist;
+
   const albums = artist.albums || [];
   const songs = artist.songs || [];
 

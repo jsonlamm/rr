@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 export default function (props) {
 
-console.log('stations props', props)
+
 
   // const DUMMY_STATIONS_DATA = [
   //   { name: '90s Hip Hop' },
