@@ -6,8 +6,8 @@ import { convertSong } from '../utils';
 
 
 const mapStateToProps = function (state, ownProps) {
-  console.log('ownprops', ownProps)
-  console.log('stations container state', state)
+  // console.log('ownprops', ownProps)
+  // console.log('stations container state', state)
 
   return {
     genreName: ownProps.params.genreName,
